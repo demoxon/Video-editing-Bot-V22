@@ -15,8 +15,8 @@ class Config:
     API_HASH = os.getenv("API_HASH")
     
     # MongoDB Configuration
-    MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
-    DATABASE_NAME = os.getenv("DATABASE_NAME", "video_editor_bot")
+    MONGODB_URI = os.getenv("MONGODB_URI", "")
+    DATABASE_NAME = os.getenv("DATABASE_NAME", "video_compressor_bot")
     
     # Channel Configuration
     LOG_CHANNEL_ID = os.getenv("LOG_CHANNEL_ID")
