@@ -39,3 +39,4 @@ class Config:
     os.makedirs(DOWNLOAD_PATH, exist_ok=True)
     os.makedirs(UPLOAD_PATH, exist_ok=True)
     os.makedirs("logs", exist_ok=True)
+    PORT=8000
